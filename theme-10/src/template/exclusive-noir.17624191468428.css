@@ -848,13 +848,13 @@ section.cover .inner .head .torsvp__btn:hover {
 .couple-info .couple-preview-wrap {
     position: relative;
     padding: 0px;
-    min-height: var(--body-height);
+    /* min-height: var(--body-height); */
 }
 
 
 .couple-preview-wrap .couple-picture {  
     width: 100%;
-    height: var(--body-height);
+    height: auto;
     overflow: hidden;
     margin: 0 auto;
     position: relative;
@@ -863,10 +863,10 @@ section.cover .inner .head .torsvp__btn:hover {
 }
 
 .couple-picture .img-wrap {
-    position: absolute;
+    position: relative;
     /* display: flex; */
     width: 100%;
-    height: 100%;
+    height: 60%;
     /* border-radius: 50%; */
     margin: 0 auto;
     overflow: hidden;
@@ -890,10 +890,10 @@ section.cover .inner .head .torsvp__btn:hover {
     position: relative;
     bottom: 0;
     left: 0;
-    padding: 40px 24px;
+    padding: 10px 24px;
 }
 .couple-details-wrap.previewed {
-    position: absolute;
+    /* position: absolute; */
 }
 .couple-details-wrap .details-title {
     display: flex;

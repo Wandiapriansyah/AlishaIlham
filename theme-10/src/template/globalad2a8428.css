@@ -23,6 +23,12 @@ body {
     --button-background-secondary: #0000000 !important;
     --button-background-secondary-rgb: 0, 0, 0 !important;
 }
+/* Lancelot */
+@font-face {
+    font-family: "Lancelot";
+    src: url('../../../asset/font/Lancelot-Regular.ttf') format('ttf');
+    font-display: auto;
+}
 /* Ambyttion */
 @font-face {
     font-family: "ambyttion";
