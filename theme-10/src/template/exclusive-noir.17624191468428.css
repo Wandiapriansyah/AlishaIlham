@@ -440,8 +440,8 @@ section.top-cover .inner::before {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: #b695c040;
-    /* background: rgba(var(--background-primary-rgb), .25); */
+    /* background: #b695c040; */
+    background: rgba(var(--background-primary-rgb), .25);
 }
 
 section.top-cover .inner .head {
@@ -875,9 +875,10 @@ section.cover .inner .head .torsvp__btn:hover {
     display: flex;
     width: 100%;
     height: 100%;
-    /* border-radius: 50%; */
+    border-radius: 40px;
     object-fit: cover;
     object-position: center;
+    padding: 12px 25px 12px 25px;
 }
 
 /* Couple Details */
@@ -908,8 +909,8 @@ section.cover .inner .head .torsvp__btn:hover {
     flex-direction: row-reverse;
 }
 .couple-details-wrap .details-title::after {
-    background-color: #b695c0;
-    /* background-color: var(--text-primary); */
+    /* background-color: #b695c0; */
+    background-color: var(--text-primary);
     height: 1px;
     flex: 1;
     content: '';
@@ -920,16 +921,16 @@ section.cover .inner .head .torsvp__btn:hover {
     max-width: 620px;
     border-radius: 16px;
     backdrop-filter: blur(2px);
-    background-color: #b695c0;
-    /* background: linear-gradient(90deg, var(--background-tertiary) 0%, rgba(var(--background-tertiary-rgb), .5) 100%); */
+    /* background-color: #b695c0; */
+    background: linear-gradient(90deg, var(--background-tertiary) 0%, rgba(var(--background-tertiary-rgb), .5) 100%);
 }
 .couple-details-wrap .couple-details.center {
     text-align: center;
 }
 .couple-info.groom .couple-details {
     text-align: right;
-    background-color: #b695c0;
-    /* background: linear-gradient(-90deg, var(--background-tertiary) 0%, rgba(var(--background-tertiary-rgb), .5) 100%); */
+    /* background-color: #b695c0; */
+    background: linear-gradient(-90deg, var(--background-tertiary) 0%, rgba(var(--background-tertiary-rgb), .5) 100%);
 }
 .couple-info.groom .couple-details.center {
     text-align: center;
@@ -1362,7 +1363,7 @@ section.video-gallery .inner .video-outer .video > .title h2 {
   max-width: 500px;
   padding: 20px 10px;
   margin: 0 auto;
-  background-color: rgba(var(--background-secondary-rgb), .5);
+  /* background-color: rgba(var(--background-secondary-rgb), .5); */
   border-radius: 8px;
 
   /* From https://css.glass */

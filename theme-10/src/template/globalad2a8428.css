@@ -23,6 +23,12 @@ body {
     --button-background-secondary: #0000000 !important;
     --button-background-secondary-rgb: 0, 0, 0 !important;
 }
+/* Ambyttion */
+@font-face {
+    font-family: "ambyttion";
+    src: url('../../../asset/font/7377Ambyttion.woff2') format('woff2'), url('../../../asset/font/7377Ambyttion.woff') format('woff');
+    font-display: auto;
+}
 /* Butler */
 @font-face {
     font-family: "Butler Bold";
